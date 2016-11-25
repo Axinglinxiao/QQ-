@@ -1,7 +1,7 @@
 body{
-    margin:0px;
-    padding:0px;
-    font-family:微软雅黑;
+    margin:0;
+    padding:0;
+    font-family: "微软雅黑";
     font-size: 35%;
 }
 .header{
@@ -24,10 +24,10 @@ body{
     float:right;
     width: 334px;
     height:385px;
-    border:1px solid black;
+    border:1px solid lightslategray;
     right: 211px;
     top: 133px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .c{
     position: absolute;
@@ -36,7 +36,7 @@ body{
 }
 .footer{
     position: fixed;
-    bottom: 10px;
+    bottom: 25px;
     background-color: lightblue;
     border-top: 1px;
     border-bottom: 1px;
@@ -45,4 +45,29 @@ body{
     height:30px;
     left: 0;
     right: 0;
+}
+.e{
+    text-align: center;
+    padding: 5px;
+}
+.d{
+    background-color: aliceblue;
+    color: lightslategray;
+    text-align: center;
+    height: 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+    padding-top: 25px;
+    border-bottom: 1px solid lightslategray;
+}
+.center{
+    text-align: center;
+    padding-top: 20px;
+}
+.bottom{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
 }
