@@ -1,0 +1,48 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:微软雅黑;
+    font-size: 35%;
+}
+.header{
+    height: 60px;
+    background-color: aliceblue;
+    border-bottom:beige solid 1px;
+    padding-right: 50px;
+}
+.head_link{
+    float:right;
+    margin-top: 20px;
+}
+.a{
+    position:absolute;
+    top:27%;
+    left: 17%;
+}
+.b{
+    position: absolute;
+    float:right;
+    width: 334px;
+    height:385px;
+    border:1px solid black;
+    right: 211px;
+    top: 133px;
+    border-radius: 25px;
+}
+.c{
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+}
+.footer{
+    position: fixed;
+    bottom: 10px;
+    background-color: lightblue;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+    height:30px;
+    left: 0;
+    right: 0;
+}
